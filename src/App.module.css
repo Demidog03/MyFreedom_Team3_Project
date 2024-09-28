@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .sevices_item {
   display: flex;
@@ -13,10 +12,10 @@
 .sevices_container {
   width: 100%;
   max-width: 1119px;
-  height: 488px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 140px;
 }
 .information_about_company {
   padding-top: 78px;
@@ -59,4 +58,6 @@
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
+  flex-wrap: wrap;
+  gap: 20px;
 }

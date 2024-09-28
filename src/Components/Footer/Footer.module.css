@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0;
+    background: white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1150px;
+    padding: 0 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navEl {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    min-width: 140px;
+    gap: 30px;
+}
+
+.navEl h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.navEl p {
+    color: #999999;
+}
+
+.navLink {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 495px) {
+    .navEl {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .navEl {
+        width: 100%;
+    }
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #E0E0E0;
+    margin: 70px 0 30px 0;
+}
+
+.caption {
+    color: #999999;
+    margin-inline: auto;
+}

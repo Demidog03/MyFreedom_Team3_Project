@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Components/MyCard.module.css";
+import styles from "./MyCard.module.css";
 import projectImage from "../assets/project.png";
 
 const MyCard = ({ title, description }) => {

@@ -1,12 +1,12 @@
 .card_item {
   display: flex;
   width: 30%;
+  min-width: 300px;
 }
 .container {
   align-items: center;
   justify-content: center;
   width: 110px;
-  height: 110px;
 }
 .outer_circle {
   width: 110px;
