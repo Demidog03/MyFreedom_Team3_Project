@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.first_screen_button {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: #4985ff;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

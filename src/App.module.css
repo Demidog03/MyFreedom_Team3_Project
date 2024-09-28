@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+.sevices_item {
+  display: flex;
+  justify-content: center;
+}
+.sevices_container {
+  width: 100%;
+  max-width: 1119px;
+  height: 488px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information_about_company {
+  padding-top: 78px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.header {
+  color: black;
+  font-size: 36px;
+  line-height: 52.66px;
+  text-align: center;
+  font-weight: 700;
+  justify-content: center;
+}
+.paragraph {
+  margin-top: 49px;
+  margin-bottom: 70px;
+  color: #999999;
+  line-height: 25.36px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card_name {
+  color: black;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+.card_description {
+  color: #999999;
+  font-size: 14px;
+  line-height: 22.19px;
+}
+.card_container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
